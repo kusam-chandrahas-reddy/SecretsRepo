@@ -1,0 +1,201 @@
+service,environment,username,secret_key,notes
+slack,uat,svc-app,AIza3y2guFaABd5VTwQL8tPZyjOj0JFYFE6PHXr,rotate
+slack,uat,api-gateway,ghp_eoJcLNUcyCniq7nfp7G2DRD3AZFExsEcXJph,in-use
+azure,dev,api-gateway,xoxb-97864044394-94621677606-52JmxbW5QygxBN9910T1HBGP,in-use
+db,sit,integration-user,t2brzhjpzsxAnxUy8IUm,in-use
+db,uat,api-gateway,xoxb-89910479510-64974071278-J5nEDTLfLKQijboBUtDqaIt5,rotate
+salesforce,prod,api-gateway,5Aepe88LHm8JUMHjAnoabQ6IZ4UUZmReSdEzL23A4SHFOaRLr3X3JkoUEFS1SGKNjdX9IXQ4DoTi304E9BocMVqa6mVqjpsq,rotate
+github,dev,etl-user,eyJIDEjKFNfLx4LfsoKVRk783bUj.0icLyg4VAIreHXDAPHzQ5NBl7h1sVE.XHf6Q3dSG6vKlcvhzj03tjXFbcLzbwzb0FN,in-use
+github,uat,integration-user,00D44hdrnbGBHB5!AQ0AQxj2GpholIdk5dDDbonHmX1BDPTZw3362Gk90qxtvrYs4SOFjtvtTOMSmoqa3cP4vW,in-use
+salesforce,sit,integration-user,eyJa2hj6HcUXrdJ0po5oeYZ2Rx1v.yI1djiNblRU7PJRBwnlWruHQ2Kphkh.qTKFobBBeQAdTIXng5XtLJmfwOoMC5mEuY6,in-use
+azure,dev,build-agent,DefaultEndpointsProtocol=https;AccountName=93ncijer1f;AccountKey=occjDUaPKxN8GqiofIPRjAlNK2Rsyo3rrDKlNzWY0M1jvZZX==;EndpointSuffix=core.windows.net,rotate
+aws,sit,etl-user,eyJ1lTanMIwJ4ZQGsnP4m8NaLobH.XXnfhsExJHBeznFT6odn55NDuvXjoj.NI5e6OKuF1bnZiEtnvisYYn4SWHkm1mnjhd,in-use
+salesforce,uat,svc-app,00DsjvIMqIdoThF!AQ0AQFOSTYUWpOGknNZ4cJOEf14W6em1scjerzovBXpd1tvYQlNhq0OCCgIU4JiP52MAwH,in-use
+slack,prod,build-agent,aU5VBtCxv3OL9bAloZXz0mUoggydd1LumbkUH3nodzQ6EDQLyEuiyGskZKXWMVQm,rotate
+github,prod,etl-user,AIzaXLmnS11kgujXiz07HZ35TdmefynXhTCVBvr,in-use
+slack,sit,api-gateway,00DlVv38BWK6LRi!AQ0AQyXqJOdyc9K6kRNZI2DEmM1nlg6IUTiN1GBuP5vQYMns3GXaMBPCP1koOW5OyzjT86,in-use
+slack,sit,api-gateway,H2oYAUCAMx1hoaXCwpOr,rotate
+aws,prod,integration-user,detjHiY3DaE05OTHy4kzeAckNi5bk7QsyfRuDZIy90wEd4HGmJm8TqMSlyLCVJwB,rotate
+aws,dev,build-agent,eyJJ76QQ2bYtDcMA0yui6CKpDF0e.AHE2h6beBDy6claOpRtiFivlbtkquR.lMj2bw9ObpelWuvutByzMnsLuZOkj5Yw8j8,rotate
+salesforce,uat,integration-user,00DmagokFwGMCLK!AQ0AQ9zJThJn0epJEOnAA7d7S3Ct5lgNC0MclPUuSFZvTplZB7oUCVEoF1pfPYk4WzQ62N,in-use
+salesforce,dev,build-agent,xoxb-89098535191-25562108424-1EktRpuAClfrjTC7pDRyhqoN,in-use
+slack,sit,integration-user,Gq1jndJ4YqoVxSa0PgWt,in-use
+db,uat,api-gateway,Fcjen2bPWcOF8EMmzFlrhJZMP9HuHESh4c6DA8SHBz2S8Ui095L35WjhcZVnygxy,rotate
+slack,uat,api-gateway,AIzaUne9ZLNQGaknNulByQw7cFuH2L166V1xdoW,in-use
+aws,prod,integration-user,5AepZ1sracWJ5JwtvNgJJb4XEEd7FfokJm7XCdiEiotRiZBNWinpRGIWVWQsekrihZf0ZuOt5UaPURbQyH2EpDQ0EaMN6RNW,in-use
+azure,dev,build-agent,AKIAtplPsr5geI7792mO,in-use
+db,prod,api-gateway,eyJwcjao4GA2ABxyLYFPxm9crUz0.l23OaG6YeshF2dMkRoMqyHosQyjVFG.kiqmzJ0S8PQE6pj1KSLOpi65eyMrbyYjB5b,in-use
+salesforce,dev,build-agent,eyJPkf1AKm7MGUjv5l1kLqBsssqr.QzxA1dzp2bjCyxQ7wSenRUnrxXLnDD.WsU3kFWe0PNV8gUFAgrSL0CLLr90et0zIlC,in-use
+db,prod,build-agent,AKIAID9iX6FqexjC6y4M,in-use
+slack,uat,api-gateway,5bqvhbDAUCDh6xibUPlh9yVPeYHuyimsoOeKbwXY,in-use
+azure,prod,etl-user,eyJiYc0dZWU6TNVaIctjqJ7FuGFk.6ZdgzUyPcYL6l2fML431K0ZDgV4wqU.R7XTeon6yNVrmCrdsi6CUqvyT1guvIeza8t,in-use
+aws,dev,svc-app,bV8DHPM01rMoC5SjLTR6,rotate
+azure,uat,etl-user,3AWKyxWjD2OtKQHmIIZ0QbyGgsCJ96YSXm1vAC69NGvAlb9M1W2yKfSWrLmVJyCR,in-use
+azure,sit,svc-app,H0PD8qKgN4MVZhXt6YrrzjcgxWlMMADVC9RZokYx,in-use
+db,dev,integration-user,zGsAFehcAIMjC97KNSD7eM6nPKVQs2xxEgcARy4I4dqxRFy1uljhTdV5vQ3OshqN,in-use
+github,prod,api-gateway,DefaultEndpointsProtocol=https;AccountName=6axti0k5bz;AccountKey=AGDX7X3IXLieAgoqRF8ywLaUNfPwYgnXRk771cxdbg1Rw25Z==;EndpointSuffix=core.windows.net,in-use
+db,uat,svc-app,xoxb-85020671639-46323764343-ZLln9o6Ma46KYfVigvXR8CxD,in-use
+github,prod,svc-app,00DhnGnQLqMfPDl!AQ0AQ1LpqWc7wdvDgVBy1Elrjyubp0td6JXKLSjql2p1bUA4fvNQi2ExPYxIUIv2QhnXXR,in-use
+salesforce,sit,etl-user,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-vFdNIh76aEgv7SBm8jd39CUAJxlDEl20UjaqAJUH2433eB4O\n-----END PRIVATE KEY-----,in-use
+db,uat,build-agent,00DeExQlEjTeWzg!AQ0AQHamlV7JsohJHZpeu09PRGkdYeKiHDlBCn6Us0FPFbKa6YTMrS2TLCWjp7K9lG06n1,in-use
+db,dev,build-agent,3MVG9PuRXwrknqcxIFwudGLNgfaGCHpvZW1KrZRIBiYp18u6VHUXHwiDe0g0PhAhLJWp9AVm,in-use
+slack,uat,svc-app,5AepPyMSbcqrhQrJlUx7eXMhOW71s8k105hnx4Os94QbGvvOIkqmP5S948hleSzL4mprJvhMIXOEZDjdoIEhFQi0TSAz5wnL,rotate
+db,prod,build-agent,xoxb-94947693455-71253289006-HkOJTT5cbvAOBZPHPzcHAK2p,rotate
+github,dev,etl-user,AKIAQK6b7UeYcN4ocYFG,in-use
+slack,uat,build-agent,xoxb-19349294880-81387066918-kHebRejfb3Gq9MAdui8nKCTR,in-use
+salesforce,uat,integration-user,xoxb-26783134284-29072068126-wUZ84NYXKaafKiESgEOgxzzo,in-use
+db,prod,integration-user,5AepOm5Rfo71vqThQ2sVzcLt4Wa64OxLxggfWwZsd79XuapIqq14U4Z7wA2epb8UulbsMwDkSqbjgilKnkb5s1fLOCTDrPoB,in-use
+salesforce,sit,integration-user,eyJENyeBpE4Km1Q4kH1YuTJhq8p5.rHhraHsUTAqh6sjU2d1xlWuEQg77Ga.AJGuvM3Ol4yoc1pzFdI6yotwZotbCwNPhr2,in-use
+aws,uat,api-gateway,Jxnc2hqsJcM6NyylsJbA,rotate
+salesforce,prod,etl-user,z1xuBlScwNl9XlLMWejechQ9nElT7H36TWIWG1QI,rotate
+slack,uat,etl-user,FF5Z6AcHnHPEWLc0qwmK,in-use
+aws,dev,svc-app,5Aepp2ptnE8SaYuo6GJjbm0ca4LxH4y0EFuwvvMfR3056fjXiszDRZNRfFd3Nyrg5OD09K6qxEUfEKewokwvnmmp0HLMbZU5,in-use
+aws,prod,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-iCXyy2xK8DDsgTtrf8kWp3NeSpO28DS0PmDBNGsK0M3Lej2Q\n-----END PRIVATE KEY-----,rotate
+db,uat,integration-user,DefaultEndpointsProtocol=https;AccountName=fv4vkovmc5;AccountKey=Dn5kqkKwjdMMossZ2XsqpAuhga6xZS8Mf2K6HkA8IzcO8oox==;EndpointSuffix=core.windows.net,in-use
+github,prod,etl-user,ghp_uqQrBmDHgYY9OZrdDdgelnw6RQ9V1h6VoNaz,rotate
+slack,uat,integration-user,eyJBfZTey83vN5XiIpendh1sD02k.PL9QrmgzXfrsZHau1bunTXPLVb8CMQ.RK1MKXATRog2b05CTu4R5h0e2AdJ3AYHuTI,in-use
+github,sit,integration-user,5AepFDsd1u55fwbFKvgIfxW09HmFdWhp31CCg7JsifWmT7QIMWxMC7YNLvbgHsejT26kGB5M7cH3TyZrJ22TA47jWJ9wBk1S,in-use
+azure,uat,svc-app,00DBBi8AC82OwJn!AQ0AQbCPDp8Z36VGayYIG15d6QEKiSV46A67CMWbq4jkT6IknB4XaI2D1tkUQ9rf5hJYf3,rotate
+github,sit,svc-app,AKIAK9vWTjbKnQFhHorb,in-use
+db,prod,integration-user,eyJUtb1I5NQLYywIKEFQWzBHjlXy.9kusrC59TWsxYH3sd9AfjvfAcgXq0h.IgzClgKYL4kTfIDTjxetX4iplw3sPX1Rr6Y,rotate
+github,sit,integration-user,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-r9CWXPe1Jc4tybB5TDJeBDrjMp7gbOV17PYLZadGnIkhUTiE\n-----END PRIVATE KEY-----,in-use
+azure,prod,build-agent,ghp_tBYgSsXrF6JYqqNW3Swt4nDYcfTcmv6wJSML,in-use
+db,uat,integration-user,rOEyBpJfsFyK9TrakWkA,rotate
+salesforce,dev,api-gateway,00DiQSrNhyarFtM!AQ0AQZuFV7lwVydKf4DvMJct9npbdw8Kd5nu3xmArhR3kTQcQut69gXRguJJ0TJkqLBAu4,in-use
+azure,prod,integration-user,gDaicpRmmer8RMDjezeZ9hd113zElhEDkxHVpcmu,in-use
+aws,sit,build-agent,mghXYeS1tpPxyZgmRxluK7pVa0sTRaSIKr5xMAdD,in-use
+db,prod,integration-user,xoxb-26992835643-31927559980-m9vGL5aYcTd1J7Pt8pABg5UT,rotate
+azure,uat,integration-user,xoxb-54306128387-82289571781-vzUVxskOrC4xHmuG5MKj1ri3,rotate
+slack,dev,svc-app,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-KKnZ6MbR2mRogis5UQDwpwSSalhN5z3xKDZ25hNLzt4G9iEJ\n-----END PRIVATE KEY-----,rotate
+db,sit,build-agent,UqZosQDJhFrtThpWakmQWgOv1iPqqT78NFbwLfkH5JhgZ93UNtBxATov0nWbCRlC,in-use
+db,prod,integration-user,AKIAxFg7a589FW85NB9O,in-use
+salesforce,sit,etl-user,00DqjbwJkYwd59M!AQ0AQX7Ww0LLDcwKIwY40i0tTF4501JlFQQyoOPQC0Anmaef8T7wZXlKxZyzevA0DXTmrE,in-use
+azure,dev,etl-user,p1ARhMChC5p7u7eMzHlF,in-use
+github,uat,integration-user,ghp_C2dpsaxIXkGboffKPQBu09LdqOpXQOektX8g,in-use
+azure,dev,build-agent,DefaultEndpointsProtocol=https;AccountName=nx6iqlhih5;AccountKey=383KleAMN0hXjU1qXdYJbXDeTn1VxCOIdVA5SdAbfHlTbRgs==;EndpointSuffix=core.windows.net,in-use
+aws,dev,api-gateway,xoxb-99883111219-31602225917-J2xHn6kom7OMWHzSz4LuzNqd,in-use
+slack,prod,etl-user,eyJEPAJlNKppXO8pnCRtCZqKSTkU.dYD2WOZ5b95IaeepzMeFW3SHRUDdgr.aOqRpt2W0izi84dQu7fJwQWy3G6evfXk2aa,in-use
+slack,dev,svc-app,DefaultEndpointsProtocol=https;AccountName=ugo3klw6aj;AccountKey=Sl0rorISSEiz5SePLcBDpgXYtYW8t4nuHh9PMJcbqY1DoCMZ==;EndpointSuffix=core.windows.net,rotate
+slack,uat,api-gateway,3MVG98iUUcxVQu8JwtOQCVpwQ4zSzSixqybYEaHD7X0mbC8h0TYYlx3GVlokIdYkHTsyaOSO,rotate
+salesforce,prod,integration-user,L29eeZTlbrhDun7GvpvatkbWQUO9f5fSSUVrfddnKpZBXhUcXPb2UbZVz5USPgEF,in-use
+github,dev,api-gateway,DefaultEndpointsProtocol=https;AccountName=jdubu6bcjz;AccountKey=A9yBrt1RW8fucGWuqesye3WK7ieL0ifhzdKF1SXibeBH26Cp==;EndpointSuffix=core.windows.net,in-use
+aws,prod,integration-user,00Dzp2o0s8oxix5!AQ0AQJPpUT1ovWeHQkrrAf0c84RJU1XfLSJHu99VsbeeDwdoCUmOkekOZyg6GLetuSefOM,in-use
+github,dev,svc-app,AKIAcxXOYXKL7wCD8w6U,rotate
+slack,dev,api-gateway,3MVG9KtiD8u9UlxKRlobK18TwSixs1RYkv1efoymvtW1oT5nvg33ghOpim9ZDQdl66TwNTjY,in-use
+azure,uat,build-agent,3MVG9nTFKnncOdGOfNI9A5k1ZFIz5TNHqmt9Y4A9p6FIwH9COYBczEdrzq5O5G9SqqQ6KQD2,in-use
+github,uat,etl-user,ghp_X55NIIfCHI0myOLg3yVxPSgdpq037uAJ2lU4,in-use
+db,uat,etl-user,AKIAFe5wZKzfRsAxP5dR,rotate
+slack,dev,svc-app,dchpakOZv0Ka5G0k3KXwKsnbTHYrOSyVHEuUBGiO,rotate
+db,dev,svc-app,3MVG9KD6oWnwM1cDAYpm5JQduWg8YmY6s3ofVS8Er6Rf8wUbj3ZduGt1x3mfB7GR4DFHz7xs,in-use
+aws,sit,etl-user,3MVG9A2kkoseFfJYBpIeF1CO7X2WUKGTIiznnKAxTGQGNVtr7ZrCtQXlqPC5hQYHBhlBgigv,rotate
+aws,prod,api-gateway,xoxb-55470627959-03125893154-U6SFcajX8WLERGCSeJS48QJZ,in-use
+aws,prod,build-agent,5Aep6yS1R3KLSJT66MYE4J96RG2gUziaUfuQSRqyrptQlSl64uwOCGGOFIZaZxuDlbHJjs9P1fskRlFFWpS1lqjIsbTJLzEG,rotate
+slack,sit,integration-user,kjEf1XQNcxklqOoN9fWTlH3dHaQr9Jo7wwBKk9Vc,rotate
+db,uat,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-2qWKnM0axOErJzaUx8xg3FlrnSkTxehl2j8YnJQ5H5Z3rloc\n-----END PRIVATE KEY-----,in-use
+aws,dev,etl-user,yfQfZKnifuDN9XY1PfsOpuhOOQh1DLHfzbgYUZgv,rotate
+salesforce,sit,etl-user,00DBdPg567P3Iib!AQ0AQqv7ObbHNRlViQImCxNRd9tvQCS2A6e8CY3tqbovJiXpUtNCcPbI1F70ZJ6ZS7iRHv,in-use
+aws,dev,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-f1WGpQgXUivHGMbauNLlBe38vUsWP0jhyFtpq9nHYbNzCFmh\n-----END PRIVATE KEY-----,rotate
+aws,sit,svc-app,eyJQcwqMalpvYBTYeYURWV6p2U9N.s18I3iQKrw6fUnZX3Jr3sqi0oMJP39.sB73L4Tar1ZvJXsBOxr2mIkPd99SIjgg2FT,in-use
+db,dev,etl-user,A3w3wnM1a5sQlt0cvYaPNZUSJ0qyTBnM8QmQMYwD,in-use
+db,sit,etl-user,Y25wQU3yanxvyBfAZCyn2l3N5orA4FtvlG9LrBrE,in-use
+salesforce,prod,build-agent,00D6h766DVcnUum!AQ0AQ50WgPYP5L2MNMyFtsWEaG713sXb02mkrHAlE48iCzUuAC9d4WcEjQU5PzSz6CAvX9,in-use
+slack,sit,etl-user,AKIA3jgSThm1Kp5TkQKf,in-use
+slack,prod,build-agent,sGeJ4vOFeImNb9nohyzDvZOZcWfHHxyyl9HLzJd0,in-use
+db,uat,etl-user,3MVG9xIObqYVgyyN9gXyuGm6fYW5sFbIa0Dq1KREG9W0kVpCZHLiJoPUZQu442MvT4mdhUty,rotate
+db,prod,integration-user,5AepGZwNAAcgGfmBKofCm59IvIpJNBTNdhP0pm9ALmtl0qmwBWk3utheNAxlLVWPBipyXuV3PdyKdbVPxIBso49KowOEeRh1,rotate
+azure,sit,integration-user,xoxb-34906021012-31549005032-U8cjSvGai3IY4MOGInjY2WNE,in-use
+salesforce,dev,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-U8x68ATGMdbEDoFCE00qFvG0xBr3UWpIwF6Mkcq1cWQCXOqF\n-----END PRIVATE KEY-----,in-use
+azure,dev,build-agent,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-ZY4bSwSnJOTIwxV7W71RlcFLz8sZGM3smUWF94w5zpWN6QEc\n-----END PRIVATE KEY-----,rotate
+github,prod,svc-app,5AepQRpWKwlqgHIqJfFmWcGDVyLpxIrftEqP3PV7VSbymi40A5b6vUQ6Hz0uIzCn0b51gPktAwrL71sqSHvLzmjU6W4ZKdin,in-use
+aws,prod,api-gateway,ghp_mQFrRp5WlqRU57USgiJ4MU96Feq4BChmQMmd,rotate
+aws,sit,build-agent,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-yWfUekoSV6QciNYP2nP3HJrNxs05Ft5r0sVM5lE5PAtUzIe8\n-----END PRIVATE KEY-----,rotate
+slack,dev,etl-user,99m3ElkysdfNtI7VjGiCwKJht9FYprGUIAXa7j2B,in-use
+github,sit,api-gateway,ghp_9AUj9MW2vjsCXZ7S4A5q425AE5BccZJ46xSw,rotate
+salesforce,sit,etl-user,3MVG97ivRIQC8DV0Q7v5NMQSDYfIX4FfIWG3iLCqFCJDvyZkg7ZqEWWUcO3FXcd3535925s0,in-use
+azure,dev,integration-user,5AepsnXFBOioS3D98ybwzR4jMyK3ydf9r1pFEojKyiFfbhyGuweT5lAE2rGGR3sQ3LEgnJWjVIjVMR0tfmGd5rrXusulsgm9,in-use
+azure,dev,svc-app,00DNK6rgQ1DIFAU!AQ0AQTQ4aZ7UsErEwCCky4JvBpq6Sh4xK6r33zk2dfivYx1UdL4FJo9RD6Pcm1qJZIiZ4x,in-use
+slack,uat,svc-app,eyJSJLpHbPWL9uX9ugKLzd5AWj83.eOc9LEg6Mpj2C9qIItJwnWSw1t9dsU.QKiHxWCaKpgYHIiI39Ev5K9HZNQdBRvDIZf,in-use
+azure,uat,integration-user,00DXZc0mjbslAAk!AQ0AQ8oWKsf1lFP5KmUQktKOj2IovMjUtWfWCKOlDmozgnun0idefN34pbnGZIdZNkiMUU,rotate
+aws,dev,etl-user,dbXql1SRc4eLShFFxh8d26uPskk0de84CVu9lCcJ,in-use
+azure,prod,etl-user,Kr7E3gfrghxHXhEUdJIXsSvKYC27Us1MMdlolTSDaVY03IwA4x0096PGuIgxBf8B,in-use
+github,uat,integration-user,ghp_9CdYy6rWcbmRvIG1eM7HaC10xh2LdGpSudB7,in-use
+slack,sit,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-KrUkyzn3f7GSo2orRMse43J0MCDQfwM7OhYbfgp84PEBXHOW\n-----END PRIVATE KEY-----,rotate
+azure,prod,integration-user,xoxb-00791328068-96092760884-J63YTT1GUCCIbOqhb9YzQ6E9,in-use
+salesforce,sit,etl-user,AKIAJa3YmdPjh08rbGTt,in-use
+db,uat,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-VsqE14wnDuT4apF3jHZfcSWgti6kD5WQJSEQgUAL9iab0CA6\n-----END PRIVATE KEY-----,in-use
+db,prod,build-agent,00Dj3nNga5NeEm9!AQ0AQuC4dQQzSEzFFGFXoCxbeRe7vdBHJLXDHZ3qdHm5qmd2GQ0K7dCgtBTpEamTeAGka7,in-use
+github,prod,etl-user,DefaultEndpointsProtocol=https;AccountName=oah7ykgciq;AccountKey=5z7WnYENxfgSHAqm44Ug6VulCQyqA1B1wprNZJNnBKBAwEeZ==;EndpointSuffix=core.windows.net,rotate
+salesforce,dev,etl-user,5Aep3evZ3YiQ78RMp8GoKRcWFJASlbYf5e6bNozG1rLLEmDrEkrB6Ju1qVApjCyq5kHDgf8K0rtOIKnZqcakQ786Sq86kco7,in-use
+github,dev,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-IqpNDBQ7m6JHJIRvJwG6KOSFrZQ2h1G0SycbgAnXEFbQp05B\n-----END PRIVATE KEY-----,in-use
+aws,sit,api-gateway,ghp_iepcrrFu9bgvktRaCwsPuHrjDEeXwm2E5PoK,in-use
+github,uat,build-agent,5Aeph3O7rOcWpUxHTpknEcT0tDir4rD1jA5j1NnUjxV5PljBxE39vnQPeCbYF2fXUSJ9iT1ig0L8wLwiRobMKVMcbWkoBHZr,in-use
+aws,uat,svc-app,DefaultEndpointsProtocol=https;AccountName=ti94cnjiko;AccountKey=8pnEv9BNYnHf8m3g4yni4p6RMBvBvg1fMfH4WowkNXuhuIhW==;EndpointSuffix=core.windows.net,rotate
+github,dev,svc-app,3BYi5Nhb8C7HkhA87yy89RNAaDM8YHHX5UFC7Igk,in-use
+db,sit,svc-app,AKIAh6sOGlaJjBlMyrFy,rotate
+slack,sit,api-gateway,00D50SU0ZWmoQyZ!AQ0AQLZPxtQgefUsRPpzu2lzx5DjKdaralzUZF1s5lIm9Mp2Z7nGOLgjRt2qFZiThcfPME,rotate
+github,sit,integration-user,ghp_e0Yfgwg480LYsDb6NRKP6Zz4Po8d7ueTWRri,in-use
+aws,dev,etl-user,AIzae3DRNvDxjohW4xKqt2qnE5XPrK09a9yBF6W,rotate
+salesforce,prod,svc-app,xoxb-41833222181-25511345169-o915uAn8iiZ4izehN7i3wYWU,in-use
+azure,sit,etl-user,5AepNwhqshHoMZ52RJpgLqAGVjZPTDUvNgZA7SAjEXQ59uQCAWI5wQNcIj0CsMU9HustxsYP9cgExp518TGoiq2crUo2jON8,rotate
+github,dev,integration-user,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-EJlc0iUlqm5EJbbf402lFt1LwaXZEIdmKwrHABTq7iLQc1WA\n-----END PRIVATE KEY-----,in-use
+db,sit,build-agent,t140DqWeswoB6UEdbJv4,in-use
+github,dev,etl-user,5AepDom1hmusOm6ncyaEziXNbpoyZcfZNABLqxAcuVTKr88qReOfMlILIjOiu4BsWMqvN0G7cxooaORx84Jh51pmuXHqnlVp,in-use
+azure,dev,svc-app,DefaultEndpointsProtocol=https;AccountName=kq4x2nzh8l;AccountKey=wCObEZpfO28bbTH8iBdbRGkj4KReD9ELYcWbPb0QUM4UAXBO==;EndpointSuffix=core.windows.net,rotate
+db,uat,etl-user,vetzu9vixAXiSbxgX1lj,in-use
+salesforce,uat,integration-user,DefaultEndpointsProtocol=https;AccountName=xevhagl3hn;AccountKey=qx4Q7YUO5BYLBqgglc8G6Fe97NSkNVnV9spbFSju3h7PHvi5==;EndpointSuffix=core.windows.net,in-use
+aws,dev,svc-app,xoxb-03948668087-67699089063-ovXpR4r0eiLVmCGFmas3q9BZ,in-use
+salesforce,uat,integration-user,kZgIE2zZUHjJYdhkFbWHc2okGYCwOSCjFZMbz3NPA2o85djQEzCXBoLJu2QRNAZH,in-use
+slack,prod,api-gateway,5Aep1FJJo52Pri4qXIDNzzhHCUfbJd0DB4BtPX3L9ukcqOHYexEQ166OoDXkZXb6vRhVRe5bLLk1G8YG7fQgluGC1f3fdQS0,in-use
+aws,sit,svc-app,eyJL4nOtury5MxZ3SclByC18v5YG.uRZS6WE2oVGzsZsqWwwvndcizAIRt6.DBeG7kxigzmLEpBaPSuOYz1rJkXwuW2lY1j,in-use
+slack,dev,svc-app,3MVG9T4Si2UrMgUtccZPJhPPKdJcBDTM4J5mswgaS2ZBQksdUJLXSNVCi7q4Bma3j5TEIeKQ,in-use
+github,uat,etl-user,TO6ylEpwBxPw0CgfnrLt,in-use
+salesforce,prod,integration-user,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-7s9hkH2xxmFnoPjSR8aGsQP8ciYG1cSFMLg554Hpf59EReTk\n-----END PRIVATE KEY-----,in-use
+aws,dev,integration-user,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-A0ZlsX00W0mkFf0TKYI6egfboAfULz3JK7WKGxyEUdXkPwEd\n-----END PRIVATE KEY-----,in-use
+salesforce,dev,build-agent,AIzaeTiYhMBOb0UCgAmpJj0iEzfB0asv8hbgTFD,in-use
+azure,sit,svc-app,DefaultEndpointsProtocol=https;AccountName=m0zcgrwo7u;AccountKey=h68EX8jwFn8QeESJAAYjtfTRy9KeiSDtOvLXR8AMC6jUY9kO==;EndpointSuffix=core.windows.net,rotate
+slack,dev,etl-user,qimOEMqr9CR3zVEBDSRGbtp8oRyyWSM1ish8vzLd,rotate
+db,sit,api-gateway,3MVG9e2M1ZwamynWA8Db90sjlA8DqyRl1xQmCuUqwDRXnbNeUxcbBsxxLPrbHRZt08N9bu8q,in-use
+db,dev,api-gateway,ghp_fIhykr31VysuKe6AdkiA8uSEKjxs13TgCHO0,in-use
+github,prod,etl-user,Ry7OIgzj7ZheKYxCwrf4SDEQq5XHJOoLpHFzSGXoTuDrCK5KT5duOYouMSrkAylO,in-use
+db,prod,build-agent,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-VV0UajHXeZSNbwjxf0wXSC5B3Oed4iGDrA6b6MRpMtxu28T7\n-----END PRIVATE KEY-----,rotate
+db,dev,etl-user,1EYIgkeqH6zFktqHU7RUV5BY51vXEZviRr72XMc5,in-use
+slack,sit,svc-app,AKIASKzMpST2Nfxug3aE,in-use
+salesforce,sit,svc-app,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-jaAMFxdSCQBfw3x9lQEtz9MTZCXMR9TJhT5btM9wbnh00ViR\n-----END PRIVATE KEY-----,rotate
+github,sit,etl-user,eyJ0bDco0kz5zMAO5Ba6fF8M6aO3.MAkr9vh0B6q9XfYedoMvEMuHO7OtKr.MrxAyIuI1Qlym5O4o8edwwqgy6A0no7vdSJ,in-use
+salesforce,sit,svc-app,3MVG9kiz804pdYjQrWfDwRAEgDsjevgR15jALoaKclMwgfXNJAH6AusiaX1xBtCScy9izFwA,rotate
+aws,prod,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-MfqTHeurpDqvAlwJ2E3lNDrPsGkZSFliFrlhkJhMAdqaQVUT\n-----END PRIVATE KEY-----,in-use
+slack,uat,integration-user,00DBei6RHqX3CUq!AQ0AQcdp8N8PhSzKljkNWNwc7F3sArMtSl0mDOWjzBxIovr4Tzyuo63vF9KT0GVd5DQpUJ,rotate
+slack,sit,svc-app,00DLVgUXe2XYiZf!AQ0AQl1Vg4V73AwfXC0gbXPGYnfB5iFadBXVLIOD3wGcW2Y2d5zu7e0M7xj2V58xVJqQAw,rotate
+salesforce,uat,api-gateway,eyJsIwCnwLzOMdDDzhl5cMzj92vc.aic0rD6GjjhttM2E2FFPDq9oyDRB4P.23YBY6YIcz2RJJpzwcl9DjkNq3T55ndjiwo,in-use
+salesforce,dev,integration-user,AIzaXBNvTrFoFSHY5GRdVkBysG1DwZ7YZo7MV6t,rotate
+slack,sit,etl-user,AKIAHQCmT1dk7D77p2hN,rotate
+azure,sit,api-gateway,xoxb-07653749260-56521569490-6cKSC6HFaPPNv0oK2rJBmapX,in-use
+salesforce,uat,api-gateway,sZd8CQgB0phA0tFLFnLz,in-use
+db,sit,integration-user,rNGVw0o3G3oylcoiYtEdPPhLwfdsw6cav1N74O20,in-use
+db,sit,integration-user,pT6mE1oE0zqTrTgNvXLH,rotate
+azure,uat,etl-user,xoxb-71401561732-69201020502-j0e3HgZ6Kpn6pPVmOUQG5lgr,in-use
+db,dev,svc-app,eyJBbAephntQdl4xh028UyruFaQp.dhqwx9tzpCMnFDYYXlnU0S8BbIYmsj.QedlRF0QhxVviIM12FhagfI7t6Zg92eihKR,in-use
+azure,sit,api-gateway,00DWSWyqzRDFmJm!AQ0AQBoKn0HwBJHB9EEgusJxojqyxgHNuHMaMROjmmLAbribXveVHdOY8omMrDvkI61M4R,in-use
+db,uat,etl-user,AKIAlUJW0gHWw1pCXrfb,rotate
+salesforce,prod,integration-user,00Dny8U22ACQYDf!AQ0AQuQrjP6Mc7SwD2Yj22SRzIGWdJqtS60kgDzRkWqOpeenaMjEdB3yd7OVjh7r5ZKVAq,in-use
+db,prod,svc-app,xoxb-58343836994-61180843390-PbXrMKGjP1D4LnvOkkIp3iQH,in-use
+azure,dev,integration-user,AKIAyE6Q7HGKpnQ0TVlM,rotate
+github,prod,svc-app,3MVG9rYUqdw2Ca1T2JYHCiTuJuM7lpqP7UJUSp2THpmBGmOuGu3kMY5LvUe7HuMevEzi9lmc,in-use
+azure,dev,api-gateway,DefaultEndpointsProtocol=https;AccountName=xdsi4cqp3l;AccountKey=LM4qAmOEL2F5WWh0mC14KKgEJbuJ0BgFTEeoAYltEr9ajihZ==;EndpointSuffix=core.windows.net,in-use
+salesforce,dev,build-agent,AbDMtQK9EVfzvFOpRmy7,rotate
+azure,sit,api-gateway,xoxb-73328586826-00757233850-DPyZ000TMiTKe20O3Dt2CD1k,in-use
+salesforce,sit,build-agent,g9gIl9ZvgEfWjNtlCNnt,in-use
+azure,dev,build-agent,AIzaMytqbuKEIn2kE7faCAvcwZaO1bHzvkjsZNj,rotate
+db,prod,api-gateway,ghp_G8s8deziuIoS0G3QQ3ueJjLrxnbKT5bEO4nw,in-use
+github,dev,api-gateway,-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-AaTkJElIkpbqyMhvfDr0cN92X0FwlATPLzakbJ7G6RCdtz7u\n-----END PRIVATE KEY-----,rotate
+salesforce,sit,integration-user,3MVG9IuaXk4Jb1IbOIKzSrjYIoInkwyWsmLSAFMhpfVD4RWLwuBtWGwBv5eXY9DZ2pJJQa38,rotate
+db,sit,etl-user,5AepU3aoNOiFHSXQ9TbNiAVbZr2YxKOEQCliIlND5TjBu90D1FPbSRnLBT7ln4VOB2Kfd2gDtRSVNEab54km0VIreyLEOpIo,rotate
+azure,prod,integration-user,5AepqbpSBAGEKnLe4H7qxEqF123f3gYDL4XVLpGm3pjbuBj5QRCxz4p2SXVkRgGinwyK6HrimsdZ1XiUKjn4pIagbwtO7Gye,in-use
+github,dev,api-gateway,3MVG9yENAT9WmuQ4ZbgFzv0ksimqzsjj4y9J7Uvemosq6BTUoRJzpI8h7aqvMEz0NWdM4bW5,in-use
+aws,dev,svc-app,5Aep5fOA8Xl1CINzqIVqD4nmovTj6I77Px01qft8l0B8tsea3eKx6oztPCV65ChuGr7VVFsagZwikb3AzGRgGVxvpmohXZZB,in-use
+aws,dev,api-gateway,AIzaBlwoze4fDVDZHaCiM0mkwj7G9wtUESaDQCY,in-use
+azure,sit,integration-user,AIzacr52yHefGdxv5N1BIcTzcHlIOrLx1tgLqrM,rotate
+slack,uat,api-gateway,ghp_PdHJDR3vGouhqLf4IoHKlGMIwFSJ2CmQTMxG,in-use
+db,dev,api-gateway,5Aep9Bi60nQNGIYU95Ghuhfr5PX5haj2woJ9NVGRni1TB7PHB8bSCywaM2DOkzgMRRdX4RWOLSpTAQoRQS7fITneVbT2khpe,in-use
+salesforce,uat,integration-user,09JOp94aSHpsKpiW2ijT9U88YK1BixmFMfj2blnDNZQ1bX9WmrCp1yjKmfKvNP35,in-use
+db,dev,svc-app,xoxb-76543973721-62879581332-oafPoJun8liPwZakGFOHnyu1,in-use

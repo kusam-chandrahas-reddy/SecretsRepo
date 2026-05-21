@@ -1,0 +1,208 @@
+@echo off
+REM Build pipeline bootstrap (Windows)
+set GITHUB_TOKEN=ghp_aQC0GYlZo5fZPN2eIhQA3XzmPWdltE9EGVGZ
+REM legacy value (remove): SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-L4SELMVZSXkz0hSB86PZYG6rZZ57qy8xTqSTpzkLd7leYI0n\n-----END PRIVATE KEY-----
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=ctojutmvzs;AccountKey=lnBpOfcmaa6fcyek39ufJCSAzCcHChU7fUGDhWihGWYqtx49==;EndpointSuffix=core.windows.net
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=iwflptcqr1;AccountKey=a9XBshNUOYjRLeQepIiFbwmzkD9nBTHJ6O6jK2fpEDMM9Sya==;EndpointSuffix=core.windows.net
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=jqwijgm1v5;AccountKey=rcJwTWFkEw8qXfcq2k84j6shkUOZruR2QJlID7LwrcwJLwUp==;EndpointSuffix=core.windows.net
+set JWT=eyJ9OXvjTkXTY6TiaLAu0ENp4k1m.Nf6KIyzpMJ65mE8iFRjFiakp7ZiRVg.1h1b43EN18T1na5KIg5wVs6DHpxOHDir5kM
+set SFDC_REFRESH_TOKEN=5AepPrX25bzhKVRccwQHyPwj99DFQvaC05gVBOlYrSCJIQnLwzJDE1LpumQbYqoHCmDkzF5rqsa7BZ54L9AOXzfCv6EEhh3A
+REM legacy value (remove): SFDC_CLIENT_SECRET=Ij3AakbdsxhkqQg2hqhqzWX7Y8STVAwSAzr4KMhjqCbK7saqUpDt0QRVpL9m2MPW
+set DB_PASSWORD=IlQve1hNDLcRc5obbggN
+REM legacy value (remove): JWT=eyJ6buzqJ3d5Zs9UACYe0DWzbhSh.8ckRvmBozku2NL8ezQ6C264kxVmGiD.f744f6ZvAXqF2lVEYeQ0YqKNH9I5WuI9lsG
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=arv6vbldkx;AccountKey=VjylGAikDvXU6N4d839yeYsk1BffMWCIBJJfrI3Zy9tBnjXG==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9BsenisJX1FXcSTdcDgefItkyVcmml4Umfc7SpXm627GqjSPziZKwMLi9JY1DoImsaFu
+set SFDC_SESSION_ID=00Dw0bjTCDy8b9r!AQ0AQjswRz89UJePsYl8yCJ6dkqi7eeoeMNpkH6YSkfKZ0dw3YR0Gh0xOStZ40LpayI0G7
+set AWS_ACCESS_KEY_ID=AKIAYxxBO2cyK9yVawjZ
+set SLACK_BOT_TOKEN=xoxb-32369067654-62770941038-EFDSE7PnNbpmz2UeteTh17gd
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=svyfup1qik;AccountKey=zO7fCuNQ555HYayacMRMmflZvubTZZ32sPMtGvEk4yrGo3om==;EndpointSuffix=core.windows.net
+set SFDC_REFRESH_TOKEN=5AepSLv6gtyP7gzL3k3Pr3b87nV1Mr2JUpMnL8YXHCQPhaCIBF9a61WoYhYEJtyLcDKsgWjYMIK53zPQqg0kNPp8NA2q4bWF
+set JWT=eyJ3FagtRCAMpgnLwYYQdfGHMsLb.OOKjIrBHjy3747O08lornrMix0c9pa.aayciwq7Bsre9k0wrdZSGdCCGyw6SWpUSb0
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=ovhrj6gyyf;AccountKey=T4Kdw3zB7JNiN2Y3Bm1RLUdbUEr2dPKx2DChDCLPZ4V7PDWg==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-37241229500-78635615201-ZtVPHEcuNI50AOwkxgI1UJu7
+REM legacy value (remove): JWT=eyJRCiem5cdBfgaJAk9O5bXiiYwh.QauMTK90WUaCVVfPCRkzuzgVRwzrS4.J4GZ22vwpxmz13CkpXyfPFl50BQ6b9mpOIT
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-wJAU9N182tlBBikH4NsD27hp8NgUBx16EsQPrnTVr9dfGoaP\n-----END PRIVATE KEY-----
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=8teqnpkeqg;AccountKey=ykFY1P6poL61Nu8dj20e8QjOLcyZyATC08DC8rPlDyahwSV5==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_SESSION_ID=00DhNZsHlPKQJNp!AQ0AQGuSC2YwOcukDmbP0NrHncoR29ilxws7soXEdgVvee4r80qWeBSOwTRYoB7D3dyygM
+set SFDC_CLIENT_SECRET=PBSLmHpwQZQLuSKvZeJRS6Vcfq1sCeWOnF7PoZG58y8NRWG9GtmVuWtoGY6sgwAB
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-j7qZEQbHIRkbtFwi9rkbX9sHz9RjHWhX3pVNH3BWdO21Oh6t\n-----END PRIVATE KEY-----
+REM legacy value (remove): SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-QDjxSi052HkoQk9krhrvgiBqNMwY3AfxxhM0zA0f3OJ7H3ZR\n-----END PRIVATE KEY-----
+REM legacy value (remove): SFDC_CLIENT_SECRET=i5Xl3X7lDoLorkTd3jN0vFbWIhfd9btuqPKqlDGCiMgnnt5dnLABb9EyQuv5FiuX
+REM legacy value (remove): SFDC_CLIENT_SECRET=d52KLTFpP2PmU0kOr5ZTGrYeRKXwU7mltqTn6zt1nkX09llkeiFP64LQbnEBpq0k
+set SLACK_BOT_TOKEN=xoxb-67516749927-51902035210-1lB32B6z2D9SAqGB71mLLS5M
+echo Running unit tests...
+set SFDC_CLIENT_SECRET=JjGbQFXTwc2DRNxrdpcpCsvGMkbgXZxnsBmfuFwAAX07TjSBHEcV0CdEoUoAAUC3
+set SFDC_CLIENT_ID=3MVG9vDXfhR7VjbxmYopuPXxmlTCkwI1sJi7HahOodc4JWeOZbNdsr5pAqI3UMDu13FDrsG4
+set GOOGLE_API_KEY=AIza7S0SqiFrlB9dtPMerio4g31AWuxASJlgtW0
+set SFDC_CLIENT_ID=3MVG9NCs1fdsTasFPeKqi3qi38FRLgUeKKGFq0WzyA2xWHoNcjI2oA5aiBEN0kBvmgwlTfHH
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-11534346308-26343602824-oSk2HuOksPaW30p8icjDfVAH
+REM legacy value (remove): JWT=eyJdj0DAfrptNXRwQyhDwYMT18Zy.FkR8cZ2AQmwdZaSA7BQFsikXvnFATN.I4gDdhyCXOv3mqWun37mn7fMhK3LMWHi7wX
+set SFDC_REFRESH_TOKEN=5AepQBSpelhp8wSfsKihrPXPdqqxHmuH9ud0oXZiewK2LheOzPEspm2VpuTdm0wgkFCeSkn9zBV1QdZqHRN8vbrlUefIAi4S
+set AWS_ACCESS_KEY_ID=AKIAOBnpHHRbuUhoVglG
+set GITHUB_TOKEN=ghp_1dn8JHfKJO1BvMHAySFSw2dGHa20EAzjSv5r
+REM legacy value (remove): DB_PASSWORD=cmgqLRUMqroNPrJomvOo
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIAS8uNtQEE2uuOpAtW
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=qoanie7pio;AccountKey=tFFEhPSkTM1RevD3pE1CkZVIFLzNSc6JGohm8a6IyHiBbpM3==;EndpointSuffix=core.windows.net
+set AWS_ACCESS_KEY_ID=AKIAoKFXcC4qDXviBkjq
+set SFDC_CLIENT_SECRET=2whVHZU1vl2u9q5465pIsKpSI0n4AZAxOVzMKERVn07j3aW4p4SxZQwqgMgFVAGn
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=nvs0mh3jc6;AccountKey=birE7Mc9rjdyJg3VKbbNIS5QTBxchMC5ZjYKiIf9tKmM1h4Y==;EndpointSuffix=core.windows.net
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-NjRr4tURCOzD7noWmurVpmEYSRwPEyUNt2SKThX2M3OwaaU3\n-----END PRIVATE KEY-----
+set SFDC_CLIENT_ID=3MVG9v2qz2jCaQNrwMxBGWrX6HqpHH0tYdBW4Tfbui7covnMqTcDDp6I4Lpl4cbIj1yvpWE6
+set JWT=eyJDTxaGZQGj8XXg3uVLMr1SyYwC.w1VJr5R8l74dxqPwWjifvhNyf60T87.6QhsJppofiaV8g7hCv3pKOsXH48J8bKYfVF
+set SFDC_CLIENT_ID=3MVG93ZOFJ4ttI6hpgMQZf5w5xauCmOA4FcBF4Qxx9l9YiGEiiIhjRr7RNLscoupAp4Fuvz3
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-52763200796-44014347102-cHzzcpzPcD7Yj2t1BzjUt10A
+set SFDC_SESSION_ID=00Dmbnfo6JhhWLC!AQ0AQX0ChPWX41RZiQ4ZySk6aPvNjkFhpYHLtU3XBXhERkSOWQjmVmgxD9UUyJVkeaqWrf
+REM legacy value (remove): SFDC_CLIENT_SECRET=xShB5AQibKK2QdfwV3ZeTaQ5yWIbnFqUGMceHvIjP6W8F7hhI05gcY4Xo7vn3qqD
+set SFDC_REFRESH_TOKEN=5AepKU70rZ84eks1JCaEWrlvEvFxHUrHh0tfXSbKpxPGwo3V0C8myh7dO9iLVnlZlcPfh79KKwO0wk8dBjpUsxFT9chkVijR
+REM legacy value (remove): GOOGLE_API_KEY=AIzavt4jU3JGovvInXByTrfmWYJmfmb1aXqJ2Wj
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIAvQfLp44KhJjSiDJd
+set SFDC_CLIENT_ID=3MVG9mYn1qiPEKoljHBdll0XvjHnlxEsxFTrvK5HIXaviBRomosMiBfvoURAgnH9stq83glp
+set GOOGLE_API_KEY=AIza6Ie1kTwnTtSsOsFhxRwaXENgkRHX4pEiVDd
+REM legacy value (remove): DB_PASSWORD=JQo0PXc52QXnEdsxR5aK
+set GOOGLE_API_KEY=AIzaKQmCSjWoLhmreeZjVhStAHp0whToBeG4fTc
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=shzjrd7940;AccountKey=NA2SMyoy32OcvdzVdsojn9FjC0iY8KRlHKeCJKFGVCwxLDhe==;EndpointSuffix=core.windows.net
+echo Running unit tests...
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=0rqkox3si9;AccountKey=0qnLV5O70H86MIMOZXyQPGldXnJQccGDukoZciZe5F0W0Oxu==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_SESSION_ID=00DKNJLGU75gk7x!AQ0AQZ5VgVSkgUx4uEow0Ga4wPwhL4QD0qpJxMdDE3gG4893VUHK0c7UesX46yuLcCszpT
+set DB_PASSWORD=pRtqnI2PRIpI80ZjnBwk
+set SFDC_SESSION_ID=00DnVcaFXN2cLlT!AQ0AQ6FeDdiOuR7rWT6XEJ2J61jxrZuKWlrzy5EDMqr3a8LkW6gdfI6A9V5CnlKQyRYcxQ
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=iynrhqyicf;AccountKey=j0Y0IvCrA0PQawB2lLi1ULFKwWsahe1hX75aOyTtcE0Xgmhs==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_CLIENT_SECRET=ZCnHEH4EQa7kLb0w0kuZsO6SuszLSYfQTa5oTPo6Glpu6YQNRYzKCsarbcvTNecs
+REM legacy value (remove): GITHUB_TOKEN=ghp_IQbV6kC29uFwy2XaXdRVgM55PYiPsetu4wfo
+set JWT=eyJEfzASByAb87cwsGLOgsGqrTre.yEjiD81el5a60jLTJrP2fMHcNla9cH.fG7PJQHkBhoMXspUaijiBwv7hx70eEjSm1A
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-67181648936-77628321851-MFmvElYSfv0sdtfL95ogafBM
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIASfcrF6AVPsSYMVi9
+REM legacy value (remove): GOOGLE_API_KEY=AIzaHJaGxeA3yqIjbk7PdRYWTtf981YUVB3DSGC
+set GITHUB_TOKEN=ghp_a91hWddkaZ4juGrdmbk3EF8yi62M2lyFHLmW
+set SFDC_SESSION_ID=00DYmwrebLyyTrw!AQ0AQWOKNjMYVb146WGFyuoTQrRIzCACjxDjuqHLjpVzsHFk7H7DTojiq2Lrsz6oWCHlZZ
+set GOOGLE_API_KEY=AIzaasnHeqSywewSLYI8bARDp6lUQjQe7ybSAkJ
+set SLACK_BOT_TOKEN=xoxb-10149204689-05952282444-6XCOqpDZrIIZEAki2J1rspmJ
+set GITHUB_TOKEN=ghp_3kbTa3b6ZNyT1mVipS0Oe06kgOtajZTnvRSH
+REM legacy value (remove): SFDC_SESSION_ID=00D6NM1SvIT1Kd9!AQ0AQBKTQ6kzWnlYWBJoJgGSQaCg2RdqwWqFiu3s4I7xVATUtpRZIdMPATZv0KEADVs8gW
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-B8GCcKWNSFampBJE0hcSY3upPIu0ZZHlrZf4gDWjqjbwan0z\n-----END PRIVATE KEY-----
+set AWS_SECRET_ACCESS_KEY=1pFUfnEFe41QNAWpn2SqpZfwD4slCZpw4bCPW7Is
+REM legacy value (remove): SFDC_CLIENT_SECRET=6yiQQy6Zh17KWnRd73Ri4loFAlGsVBpJDi03art4MKzCLf09oraRY5W2AQifXVew
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-xnWDr8iWopSWmZFtADFTmp5bK1yQtO9yz6fBjQZtAov2yTXb\n-----END PRIVATE KEY-----
+REM legacy value (remove): AWS_SECRET_ACCESS_KEY=BWH9mx5Q1Zh9abFg2WO0MdXapDt1qsHOYAgYOYQa
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9LdjgE0tLGl9Opch4jlMqzgw67n7X8SLhZRd2sjB2exkkWRzi8PA5J1B0uRq9wguREn2
+set SFDC_SESSION_ID=00DfzRGia8LkQyG!AQ0AQhcSFM15FocYHtCKwBn2rzPVnhxprDSE0ePmmEfuSngu9UHsgeeZmw2beC0Ba7g2Rb
+set SFDC_REFRESH_TOKEN=5AepAsmpFsKwuCHmb1h4XUMwUxy3NnwXdVs4Vnbtka1VssDNBiFGhnuS3CMsGPwQ6hKRb6CraINXW1nwgHmi6YhVj4sN9qne
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=416eog0dgu;AccountKey=Cdd3aI9DjuHfFwIU3FetfdgwreItrLUe45h9DOit9jT2LMzA==;EndpointSuffix=core.windows.net
+set SFDC_REFRESH_TOKEN=5AepbrCkqRyf0Atz44L9x870Ar1mCbvM6Egk7zaFfXYbeXItyGxSHkLF9dzo4PAMk6VuY7UZx7NDSciyRXUcBJmSU58BSdgr
+set SLACK_BOT_TOKEN=xoxb-75919229797-66962287022-Jyuqa6A4eS4XzyTqUlvEoeL9
+REM legacy value (remove): SFDC_REFRESH_TOKEN=5Aep6KsvJJ3QlPwKcfIzk1alEO91juN5WGanotxG36GtoXSrUrwh1PGyTMA8PZVAqdzP8phwGNhtIH78U06vB8MU1FEHDcu1
+REM legacy value (remove): GITHUB_TOKEN=ghp_EdaqK75x6HudlQyoB1Q8ZUsFT4nJ2tUjvyqv
+echo Running unit tests...
+set SFDC_SESSION_ID=00D39CGGFoxD56Q!AQ0AQzHDHjqJwVC9fLyriBMsODJ72Uz7fHnXQUEDwxl2SsyTbNNHVp5KgKQ2pTg55qQAUx
+set GOOGLE_API_KEY=AIzahBzbbZc3Gj8uBAGPvUx6cQ6B99FZ6kShxNQ
+set SLACK_BOT_TOKEN=xoxb-24687826857-20372463069-O89g2kQm1ptqc6463v1E52KT
+set AWS_ACCESS_KEY_ID=AKIAorTE457A0K8VHHFm
+set JWT=eyJL2jaFcHO1IWBdrZAOm8ZxnZlc.9hwXLGGCac8zjiWs4JuL8LH9aUqPyU.7XtAkfwlPGrsqRmgxM0QWG7TufcrMYYhgiP
+set DB_PASSWORD=bE98K8R6Wa4jvyGLTY5w
+set GITHUB_TOKEN=ghp_oCkKqfoxlrtU4TCgVIz9NNJrhO6wDGLq6qlz
+set SFDC_REFRESH_TOKEN=5AepChKMqJaNMi5iNeygZWdCLlKZl5KQYrbOllioibGwttYfEgZ3ML8fApYJRUkKvWjswD8LXxPHwJ5yXL418lAux7gXcu8r
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-YyFKPn8SRmav6XwMmPmNj7nL3KHuReQyqc5h2bNPnnt4LTAM\n-----END PRIVATE KEY-----
+REM legacy value (remove): SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-FmqjAlNPcUf0r3wFD1yqtQC0XQWBvETKAZcYmXP5pJQmItm8\n-----END PRIVATE KEY-----
+set SFDC_CLIENT_ID=3MVG9PmRN7CprpRyX3ojw8sT77r3Oryz22vg8hwLWhnWQzLBRIyHSv4SvlWN2GfEe7pWmG0y
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-Xf12EYUttHmvHPgvsAKY16WEOtrttiGFgvpremG6unqG0GiZ\n-----END PRIVATE KEY-----
+set GOOGLE_API_KEY=AIza0sWB1e9m0rP5TApMsM18cpmVrtddPuH0AuX
+set GITHUB_TOKEN=ghp_Ay4UUMYDPMUmIxAic1yRxjIoHYufj2s7iYpc
+REM legacy value (remove): GITHUB_TOKEN=ghp_LugQlTtNaCO3ZHxhqCw17MRA54QbTbomHCP3
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIAWlZ8LgtZL1FuE1mZ
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-84061351160-16422985707-fZzygeJ2yTDXrW0aZsZ2r3ay
+set DB_PASSWORD=03hmWqJJ1GvzVdr1kRmN
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-90250710859-50123148641-lewmp9IRB6xNc2XTjc1B8jFp
+set SFDC_SESSION_ID=00DrIp6Sf9IBACD!AQ0AQsWjH0HXP8qshPtHl3rvfKn6PaecGjB6FrqdR1mt3nv5t3LO1m9uN40lKzLNz6MvKw
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=sbinpa8jgi;AccountKey=Xt4qDQdo6zNlJTg4h27aKwkfD2n1rmu6oarJ4xLIhSAvGbCD==;EndpointSuffix=core.windows.net
+set DB_PASSWORD=XVQH1buTANmfSeKHWOcg
+set AWS_SECRET_ACCESS_KEY=06LuIK8arefa8qA8bRt4TCLbxEnE3je0N0T7PyUN
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=yote7buwna;AccountKey=Nn8jVW46tAxPceirDOkHb0WVKYjGHxmxWW6tKn7I8YFGo4SD==;EndpointSuffix=core.windows.net
+set SLACK_BOT_TOKEN=xoxb-04591220234-81847645267-SBTZ1owRu0W0yqLbZDW3xmdL
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=y9s2qfo8tg;AccountKey=M13Y72MNNPtlnntkte0P0t6uoKwGsGyae4HTuIdBNXZ35hhJ==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9SUCBinTR73ptm98rzKyLETmscPrOOrR89gJchW1o4guED5rLtFqEjMz4c9iMymoBtwW
+set GITHUB_TOKEN=ghp_GjIMTBvyNHgz1VaItn9PZfRSGLU0itjOq97w
+REM legacy value (remove): JWT=eyJj6sDEiZmj81MDf6uqf5A8iYgq.Ibn4euxkDwvPdYMRHG1XnIt0f9DLap.lq1Kw2xfexVLGIuCRcTAy7cPLAplOrKaB0Q
+set DB_PASSWORD=xGgKbHtwn6qcNyNInhOQ
+echo Running unit tests...
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=pktii5zpzg;AccountKey=ZkOgf5FLgls5WZrtxUWAynoMjHajV7NOe2jHW4VZ9emKjCnJ==;EndpointSuffix=core.windows.net
+REM legacy value (remove): SFDC_SESSION_ID=00DFw5iefOzFEyR!AQ0AQ4Doe8MYAJQQ8GXHrOTMuq8Lh6ApW6jRPHkQFXGuPwRfdhZhRk6NjlfvEG96vHVl5H
+set JWT=eyJXg8SXEsIJckHaz2juZWhK3gBM.YsGtGDJwjivf1HNDBtPJtdYrlK6H1h.9NlgBk8DH0uhYABcGhN8MbSR3CJJLfJzQzv
+set AWS_SECRET_ACCESS_KEY=bSC79zEOK2E4PWyi5KtKW7M0SLdg95t9s7NykUOD
+set SFDC_CLIENT_ID=3MVG9Oy7TQxXHTz1m5b0qinm89vCEvoTkNc1Ca3leWIYQ4SXCXxXqAqptiR5VpXCKKaP5ysQ
+REM legacy value (remove): JWT=eyJeQUc6BSp93EEbPY3zl5q1LQEE.NDSlhCOKpU8gAZOLI5BgvcbMGtfGLu.dg2K4V8VCBL4wxyEBELIkScCYUv23rIJpSP
+set SFDC_CLIENT_ID=3MVG9RAFW0xb3zZaeqVxCKKUxRxu50g5yFfnDIHfd6r6OqkbBjCGchCFyuRD5ebNDmYKRXc4
+REM legacy value (remove): SFDC_CLIENT_SECRET=AXHG3XnapunCoqsHe7z3u224QMHINt6sdYLUBSRJMfMKXDxyt0owmpTCRAjya2So
+set SFDC_CLIENT_ID=3MVG9D8RBKXYAA9r1MzqynT8ANy1I2ngDoanyoLOqmDAy1LBkMtQ59tzSxsfd3dwsqEtTUG2
+REM legacy value (remove): DB_PASSWORD=Y8O6BkIe3Ku0bqV7CnsJ
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9iPjVcqLh6QjQhqH2ZOhc8Mo7jQ6nF960G9Y8eQs0J9nzjaYFPV9uw4jr0NBUT0wLZiM
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9EfGbF2YK0pNXrnPRm67l3CHiQ2M80FGZzThrWV9Ck1k2Q2fv2dPUD68cnFffeT2rVhg
+set SFDC_CLIENT_SECRET=q0lhWvPsbveR898szcA2SvVfR2fO2JBrXaK2wRQs0cXl4LrDPMyhv9WFqmwSSqlo
+REM legacy value (remove): AWS_SECRET_ACCESS_KEY=N6QknaD4iIeU0mPQVUHUdbgYDUfWXGeIqXyhshl5
+set DB_PASSWORD=dfQ9VMq2Od8gx6EJYh5A
+REM legacy value (remove): AWS_SECRET_ACCESS_KEY=zZaBetLn0lki6fwhVvrZCeICa9NVKdvCgkU2bQVV
+REM legacy value (remove): DB_PASSWORD=briAjGP3uBlFWiYJH46j
+set SFDC_CLIENT_SECRET=v4ZKdYXBxi4s4BwSP8NZcohH4mA2Bh1YrzxAYXhmUZ1esGO15LxaoGU4QQVnKEMk
+set DB_PASSWORD=hkrChWgSRzvSXWasO292
+REM legacy value (remove): GITHUB_TOKEN=ghp_uoO8mpB7nv4uB0apMiRQqHVW1gw662o4pdch
+set GOOGLE_API_KEY=AIzah41cZdF5xNuUNuO7gcGIJ8DykwwwUOFKPFi
+REM legacy value (remove): SFDC_CLIENT_SECRET=SsXzPCsyVVevpVvhmsvV19aFbmpNpT3GUWeWPeBLrXGhRo8k6FqzIhhezX3aTFXr
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-KFDbCWw3PIsec3K4gVFkJbqL8wjO89GhQBirosbvUstzg71P\n-----END PRIVATE KEY-----
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9Jyvo999hKgGIV9Ab6Bq6rM3NNpd8B1FHbQkzh9YRJZJmmjlIeMJUjqGDg6PFw8dzW5s
+set DB_PASSWORD=DfGhfjUlhYvpmiss6cFX
+set DB_PASSWORD=vqpIcKghpG9ydOq3bdwP
+set SLACK_BOT_TOKEN=xoxb-72996278937-88173918849-jbxuTPytEfYOKUzIonyePe9M
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=zvegmp3acf;AccountKey=Ch9dgSnpY2FEj3GeXFcn37CAaXgVkIWgWfEAChBKRt5WZvmE==;EndpointSuffix=core.windows.net
+REM legacy value (remove): GOOGLE_API_KEY=AIzaBuJgYs5hAhSlhzUE0zi8AtmZA5kZY0egbmp
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-aLoupLp5sPYw2nZDhaDh3bBcWgsLi5LpRayD5gkZqSBbpquD\n-----END PRIVATE KEY-----
+echo Running unit tests...
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIAszr3C5Br3hVd0O3K
+set SFDC_REFRESH_TOKEN=5Aep1iN0L6y7LExrwOVXf26K2aLSFamUG3D9hM69MMfT81SdnyYOSDRsQKuPpF8hf0aQgg6dmrToRXXjfX00Ao52LKeIfama
+set GOOGLE_API_KEY=AIzanRrkkgtQXEspWtcHHYDNkz93fxPb4owYzYJ
+set SFDC_CLIENT_ID=3MVG9F1ZC2nzm6Rrk7ew6CaWIcQPX5UWnnwwC7VJQ8rjHBiiZq4XBHJvt3I00j0Zsn5le6ck
+set DB_PASSWORD=6SI0wLbLcEMavbhEFe7J
+REM legacy value (remove): SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-KhHhT4X7fZc9XTvCafF7j3CI5H41V2Q1MDCEgI9PkDVlR4jK\n-----END PRIVATE KEY-----
+REM legacy value (remove): DB_PASSWORD=NTaU5Fxpkad6QgyB0bqw
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-02119303583-28855887661-rlXKriLEoTb8OHRh3LM07ntO
+REM legacy value (remove): AWS_ACCESS_KEY_ID=AKIA3Ie2uzublJN60EMO
+REM legacy value (remove): JWT=eyJ74decZJJoi4tmacRPcsmAmRZ2.ih6aq0LHmm0k5C9DOxDs9BqGh9CnU9.1qj6tO5esnGFLKqNZTooC3q8A3C9vd3YfIq
+REM legacy value (remove): SFDC_REFRESH_TOKEN=5AepQtt3b1k2qF6U2tAUk6keWhPAHOnpjEAUPxlxtTk0YnBCe9pgvEModDAYRjzwUcdvjpAhM0Fb6Ur2L1gtpkG5jEY9SjJ4
+set SFDC_SESSION_ID=00Dp4ngcrHKAZNS!AQ0AQvEaxtyFIWV6aR8zrpVGd1XyIHv59kMByBFpKQj9Ad5MymDgYPxtHhfqE7FH1NAn9e
+set SFDC_REFRESH_TOKEN=5Aep2zJqRArq07ZWXOBBkigh7PLsCfAMBYZexqScB4OFwLgTOilQn0ZHSXUzm0qyxGjBJVbtFTMZ8OzNet9XbQYdYY6IMtBS
+REM legacy value (remove): DB_PASSWORD=EwxYPSm4Q7WuJpMSn1mp
+set SFDC_PRIVATE_KEY=-----BEGIN PRIVATE KEY-----\nFAKE-NOT-A-REAL-KEY-DC4IliEAQ1608PCkXbGnjIlJsbdbaWeDLaeR0VC5vd6ELCki\n-----END PRIVATE KEY-----
+set AWS_SECRET_ACCESS_KEY=kokTSoqHSBwDd7iaCYBI6CPLnlX0czH2Fcpe0D1q
+set SFDC_CLIENT_ID=3MVG9b4IJfppyJXmYke4e481OJ3AA5GEc8sCRL2byFcjkkcGyBCDdgMXHtQUClyJEaoEg9o9
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-00756116941-83433085957-yJ5JnHiKsQmHKMLJKs9bhTCk
+REM legacy value (remove): AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=7dlg0dmrct;AccountKey=Luti9jdzajhaPxJkYoS23l4vhlczhgfb8nGGZ5kmBUmsfPei==;EndpointSuffix=core.windows.net
+set DB_PASSWORD=NqMFN1iTYPA9CR6xFBW1
+REM legacy value (remove): SLACK_BOT_TOKEN=xoxb-13535288766-18636565020-icxncJeanPrGd2skHljUwxQ5
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=bu9tsglpeo;AccountKey=ikrIfMXdZbDbqYoAtvXRPt6sy4I3RVyN2otMmxo9XFdmq6Vn==;EndpointSuffix=core.windows.net
+set SFDC_CLIENT_ID=3MVG9SV7zBjNOhsnsCJSBo5wXfjtVhEYp2IejcPYOcKY5C0oWV4yRkxxOS3hlyPpvyGDBpAP
+set SFDC_SESSION_ID=00DwvjkJ1Eek6Mx!AQ0AQ6tHUWyVLQymPKvGH6VityWaQfKFMJTykI2QI9nZimWAcBipDyURl7mN4troCpUXkI
+set SFDC_CLIENT_ID=3MVG9u0gidSJ7Vx2vfprccgEKM8jg4WmQ0FvsM6wHXYPlcTWVTbs9sjlOXfBSbfkMTxVGkZN
+set SLACK_BOT_TOKEN=xoxb-98654384175-48648639012-G0B5MpOjcV1RTSUi0N9pae8t
+REM legacy value (remove): AWS_SECRET_ACCESS_KEY=vL9CbAlk5E9awx07esTzuqnUjDO8ROzjCWZhGQrm
+set SFDC_CLIENT_SECRET=FfO7zR7PAAm1JvnBAol0hu4f4Uqe8U4FcyKTqE9ysaI9memXd5CL0END3VvTcAfy
+REM legacy value (remove): SFDC_CLIENT_SECRET=THEAK2aXpC0sZlZbDwdsXFcJcWpPPnNNeO7lV3xtaUj9SrhXyqc1JiRcqnEDYOas
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=5o6pauihy4;AccountKey=Q0tk3u9JbSdcYFqQrQjVhs3KqNuADYFswkPm1pJhWsrQgbUJ==;EndpointSuffix=core.windows.net
+echo Running unit tests...
+set SFDC_CLIENT_ID=3MVG9obS9s2jlQmjpbOVrkh8WzTgPDxu4IIGOkmazz0O0TSU3WFDXwNPRIdnLmjkdbYXWAeC
+REM legacy value (remove): GOOGLE_API_KEY=AIzaVxRblo7j7lYtlFwatLuVOCn5fyJSYTRntAa
+set SLACK_BOT_TOKEN=xoxb-32724567621-78949270650-gtAPbYGxgENiYq8G6gHKmCPL
+set DB_PASSWORD=BFw9vfWL94gVkXLctlZK
+set GOOGLE_API_KEY=AIza6sIxzWnsYg4zi2kVtIOzcncpgvudz2xoF31
+REM legacy value (remove): SFDC_CLIENT_ID=3MVG9qoVe8aanwggyvxRBvLCEYKG43oa7zjdJE3kdrWtjaRma6QIXSnTW0mi0HGWfYA4vSbM
+set GITHUB_TOKEN=ghp_XPJqrjazF8PXFKjZYX1iTfwxj28qLfKz65So
+REM legacy value (remove): JWT=eyJcuzfGkhHA9FosFyiyLAOfE3dM.ssiEQbjfzkIHGnUC7dLBxdik6A0eZB.aeMBfvPRDlVV4CCWrfmVHxmE1xtiRJ4MKKF
+REM legacy value (remove): SFDC_CLIENT_SECRET=abofS2wikb4Vi3OdrJt04zdpS03JIsW3QQ4DdGBfqCl2cNAnX26Clc73apowPMMn
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=8gla453jnx;AccountKey=vATGJ1l3YjMo3E4uVjurNpP3m49bHm4axYdOoCRYVzWRDB55==;EndpointSuffix=core.windows.net
+set AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=ferzfjjmsk;AccountKey=9tHttkdS0sFFXfYAjLJlwAfmYCeeFRRQsyjg2nzfovTOF0lE==;EndpointSuffix=core.windows.net
+set SFDC_CLIENT_ID=3MVG9CAMo0zg4DYsMvXcpuhUdP7NA4nMIxy9mfqKUcA9pGRvH0YJdDhnbJ01fUpp8ZJQlhMA
+set SFDC_CLIENT_SECRET=ezJTzRWkgWXzeUXH0cMs5UXJXWWDHcl4MlDApDhbok6rRRB0UIuUB64IwPukvLFl
+set GOOGLE_API_KEY=AIzahrbd4HjGzftg5Vuwh1UVc6JuytOj2Og5prK
+set JWT=eyJgnfkbd1jErWOc6T4hBzgsFLDw.QB1ok5uSKpeWndwueyq5BmnxHb3OMk.ZKyt7NeVUAKN4sn6fDOUyNdu6qcWvkvdmeK
+set AWS_SECRET_ACCESS_KEY=RiQinAKKOzY8ksRaoXEDH6FNjawwejGR769JaCO5
+set GOOGLE_API_KEY=AIzaDLzWThDfsY0Tw7HoWDh1aQIjbgqZ3CUxrQd
+REM legacy value (remove): GITHUB_TOKEN=ghp_waJtEgwzBNW0JeLgYX4iiRjLDbuKmewLMkSt
+set SLACK_BOT_TOKEN=xoxb-22629642588-94117825411-cGyv4c3pvyR6i2eC6x2IoBqa
+set SLACK_BOT_TOKEN=xoxb-17989816819-35055385893-6buy0Dbtd0TilfSOAade65UG
